@@ -17,12 +17,6 @@ body {
   padding-bottom: 1rem;
   border-bottom: .05rem solid #e5e5e5;
 }
-/* Make the masthead heading the same height as the navigation */
-.header h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 3rem;
-}
 
 /* Custom page footer */
 .footer {
@@ -31,23 +25,10 @@ body {
   border-top: .05rem solid #e5e5e5;
 }
 
-/* Customize container */
-@media (min-width: 48em) {
-  .container {
-    max-width: 60rem;
-  }
-}
-.container-narrow > hr {
-  margin: 2rem 0;
-}
-
-/* Main skills message and contact button */
-.jumbotron {
-  border-bottom: .05rem solid #e5e5e5;
-}
+/* Main contact button */
 .jumbotron .btn {
-  padding: .75rem 1.5rem;
-  font-size: 1.5rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
 }
 
 /* Supporting skills content */
@@ -60,6 +41,10 @@ body {
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 48em) {
+  /* Customize container */
+  .container {
+    max-width: 60rem;
+  }
   /* Remove the padding we set earlier */
   .header,
   .skills,
@@ -71,20 +56,11 @@ body {
   .header {
     margin-bottom: 2rem;
   }
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
-  }
 }
 
 /* DEVICON icons */
-.social {
-  margin-top: 0.5em;
-}
-
 .devicon {
-  min-width: 0.75em;
-  max-width: 2em;
+  height: 2rem;
 }
 
 .devicon path {
