@@ -6,7 +6,7 @@ body {
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
-.marketing,
+.skills,
 .footer {
   padding-right: 1rem;
   padding-left: 1rem;
@@ -41,7 +41,7 @@ body {
   margin: 2rem 0;
 }
 
-/* Main marketing message and sign up button */
+/* Main skills message and contact button */
 .jumbotron {
   border-bottom: .05rem solid #e5e5e5;
 }
@@ -50,11 +50,11 @@ body {
   font-size: 1.5rem;
 }
 
-/* Supporting marketing content */
-.marketing {
+/* Supporting skills content */
+.skills {
   margin: 3rem 0;
 }
-.marketing p + h4 {
+.skills p + h4 {
   margin-top: 1.5rem;
 }
 
@@ -62,7 +62,7 @@ body {
 @media screen and (min-width: 48em) {
   /* Remove the padding we set earlier */
   .header,
-  .marketing,
+  .skills,
   .footer {
     padding-right: 0;
     padding-left: 0;
@@ -75,4 +75,26 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+}
+
+/* DEVICON icons */
+.social {
+  margin-top: 0.5em;
+}
+
+.devicon {
+  min-width: 0.75em;
+  max-width: 2em;
+}
+
+.devicon path {
+  fill: #636c72;
+}
+a.github:hover .devicon path,
+a.keybase:hover .devicon path {
+  fill: #24292E;
+}
+a.twitter:hover .devicon path,
+a.linkedin:hover .devicon path {
+  fill: #0275d8;
 }
